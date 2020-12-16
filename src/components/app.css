@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(241,242,242);
+}
+.app {
+  display: flex;
+  flex-direction: column;;
+}
+h1 {
+  font: Arial;
+  font-weight: bold;
+  margin-left: 50px;
+}
+.side-nav {
+  align-items: left;
+  font-size: calc(10px + 2vmin);
+  background-color: rgb(010, 087, 164);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  height: 100%;
+  width: 300px;
+  border-right: solid 5px rgb(128, 196, 028);
+}
+
+.app-buttons {
+	margin-top: 75px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+

@@ -1,0 +1,140 @@
+
+
+.nav-bar-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    font-stretch: extra-expanded;
+}
+
+ .nav-bar-button {
+    display: flex;
+    border-bottom: solid 2px rgb(128, 196, 028);
+    text-align: left;
+    width: 250px;
+    height: 62px;
+    cursor: pointer;
+} 
+
+.nav-bar-button .nav-bar-button-link {
+    width: 244px;
+    height: 46px;
+    text-decoration: none;
+    float: right;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(221,227,243);
+}
+
+.nav-bar-button:hover {
+    border: solid 3px rgb(128, 196, 028);
+    background-color: black;
+    color: rgb(128, 196, 028);
+}
+
+.nav-bar-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+}
+.nav-bar-button-link {
+    padding-top: 20px;
+}
+
+img, input{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.device-config-input {
+    padding-top: 6px;
+}
+
+.plus-circle-icon {
+    margin-right: 35px;
+    padding-top: 15px;
+    color: rgb(221,227,243);
+}
+
+.device-config-circle-icon {
+    margin-left: 26px;
+    margin-top: 5px;
+    margin-right: 0;
+}
+
+span.device {
+    font-size: 16px;
+    color: rgb(221,227,243);
+}
+
+/* css for drop down */
+.dropdown {
+    display: inline-block;
+  }
+
+  .dropdown-content {
+      display: none;
+  }
+
+
+  .dropdown:hover .dropdown-content {
+    font-size: 14px;
+    font-stretch: extra-expanded;
+    /* padding: 11px 14px; */
+    margin-top: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(028,117,188);
+    min-width: 155px;
+    z-index: 1;
+  }
+  .dropdown-button:link {
+      text-decoration: none;
+  }
+
+  .dropdown-button {
+      display: flex;
+      text-align: left;
+      padding: 8px;
+      color: rgb(221, 227, 243);
+      border-bottom: solid 1px rgb(128, 196, 028);
+      min-width: 155px;
+  }
+
+  .dropdown-button:hover  {
+    /* padding: 11px 14px; */
+    padding: 8px;
+    text-decoration: none;
+    display: block; 
+    font-size: 14px;
+    font-stretch: extra-expanded;
+    min-width: 155px;
+    height: 20px;
+    border: solid 2px rgb(128, 196, 028);
+    background-color: black;
+    color: rgb(128, 196, 028);
+
+  }
+  
+.mks-website-version-email {
+    font-family: Oswald;
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    font-size: small;
+}
+ 
+.mks-website-version-email:hover {
+    color: white
+}
+
+
+@media screen and (max-height: 450px) {
+    .nav-bar-button a {font-size: 12px;}
+}
+

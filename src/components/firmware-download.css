@@ -1,0 +1,69 @@
+.dzu-dropzone {
+    width: 100%;
+    overflow: auto;
+}
+
+.firmware-table-caption {
+    font-size: 22px;
+    padding: 10px;
+    float: left;
+    color: rgb(010,087,164);
+    font-weight: bolder;
+    margin: 20px;
+    margin-left: 300px;
+}
+.firmware-download-success-label,
+.firmware-download-failed-label {
+    font-family: Arial;
+    font-size: 22px;
+    margin-left: 300px;
+    font-weight: bold;
+}
+.firmware-download-success-label {
+    color: rgb(010,087,164);
+}
+.firmware-download-failed-label {
+    color: red;
+}
+
+.dzu-inputLabel {
+    font-family: Arial;
+    color: rgb(010,087,164)
+}
+
+label {
+    margin-top: 20px;
+}
+
+.progress {
+    border-radius: 5px;
+    height: 2rem;
+}
+
+.progress-bar {
+    background-color: rgb(10, 87, 164);
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.fa-thumbs-o-up, .fa-thumbs-o-down, .fa-info-circle {
+    font-size: 1.5em !important;
+    float: left;
+}
+
+.dzu-previewStatusContainer {
+    border-radius: 5px;
+}
+
+span.dzu-previewFileName {
+    font-family: Arial;
+    font-size: 18px,
+}
+
+.mks-alert {
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: Oswald;
+}
+

@@ -1,0 +1,70 @@
+.form-group.field {
+  position: relative;
+}
+
+.form-group.field.field-array {
+  //border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.form-group.field.field-array fieldset .row p.col-xs-3.col-xs-offset-9.text-right.array-item-add {
+  display: none;
+}
+
+fieldset#root > div > fieldset {
+  //margin-top: 20px;
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+fieldset#root >,
+fieldset#root_0 >,
+fieldset#root_1 >,
+fieldset#root_2 >,
+fieldset#root_3 >,
+fieldset#root_4 >,
+fieldset#root_5 >,
+fieldset#root_6 >,
+fieldset#root_Gain\ Scheduler >,
+fieldset#root_Gain\ Scheduler_Rail\ P\ Modifier\ Coefficients,
+fieldset#root_Gain\ Scheduler_Rail\ I\ Modifier\ Coefficients {
+
+  .form-group.field.field-number\,null,
+  .form-group.field.field-number,
+  .form-group.field.field-integer,
+  .form-group.field.field-string,
+  .form-group.field.field-undefined > fieldset > .form-group.field.field-number,
+  .form-group.field.field-undefined > fieldset > .form-group.field.field-integer,
+  .form-group.field.field-object > fieldset > .form-group.field.field-string,
+  .form-group.field.field-object > fieldset > .form-group.field.field-integer, //
+  .form-group.field.field-object > fieldset > .form-group.field.field-number, //
+  .form-group.field.field-object > fieldset > .form-group.field.field-number\,null,
+  .form-group.field.field-object > fieldset > .form-group.field.field-object > fieldset > .form-group.field.field-number,
+  .col-xs-9 > .form-group.field.field-object > fieldset > .form-group.field.field-object > fieldset > .form-group.field.field-number {
+    margin-bottom: 0px;
+
+    label {
+      margin-bottom: 0px;
+      font-weight: bold;
+      font-size: 20px;
+      width: 40%;
+    }
+
+    p {
+      width: 40%;
+      margin-bottom: 0px;
+      font-size: 0.75em;
+    }
+
+    input, select {
+      width: 57%;
+      position: absolute;
+      right: 0px;
+      top: 5px;
+      height: calc(1.5em + .75rem + 2px) !important
+    }
+  }
+}

@@ -1,0 +1,35 @@
+fieldset >
+.form-group.field.field-boolean {
+  position: relative;
+  margin-bottom: 10px;
+
+  p.field-description {
+    margin-top: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    float: right;
+    width: 57%;
+    line-height: 1em;
+  }
+
+  label {
+    width: 40%;
+    font-family: 'Oswald', sans-serif;
+
+    span {
+      font-size: 20px !important;
+    }
+
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 0px;
+
+    input {
+      margin-right: 5px;
+      height: 20px;
+      width: 20px;
+      position: relative;
+      top: 2px;
+    }
+  }
+}

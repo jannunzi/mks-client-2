@@ -1,0 +1,68 @@
+.device-status-table {
+    width: 60%;
+    height: 50%;
+    margin-left: 300px;
+    background-color:rgb(255,255,255);
+    border-radius: 5px;
+}
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 5px;
+    padding: 20px;
+  }
+  
+  .device-table-caption {
+    font-size: 22px;
+    padding: 10px;
+    float: left;
+    color: rgb(010,087,164);
+    font-weight: bolder;
+    margin: 20px;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th, td {
+    font-size: 16px;
+  }
+
+  tr {
+      width: 100px;
+      display: table-row;
+  }
+
+  th {
+      text-align: left;
+      color: rgb(010,087,164);
+      font-weight: 400;
+      width: 80px;
+      padding: 10px;
+
+  }
+  td {
+      width: 80px;
+      height: 20px;
+      background-color: rgb(241,242,242);
+      border-radius: 5px;
+      padding: 10px;
+      word-wrap: break-word;
+  }

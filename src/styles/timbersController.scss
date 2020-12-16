@@ -1,0 +1,38 @@
+.rjsf {
+  .form-group.field.field-object {
+    #root {
+      div.form-group.field.field-array {
+        fieldset#root_RF\ To\ Readback\ Delay\ Tuner {
+          > .row.array-item-list {
+            > .array-item:nth-child(1)::before {
+              font-family: 'Oswald', sans-serif;
+              content: 'State 1';
+            }
+
+            > .array-item:nth-child(2)::before {
+              font-family: 'Oswald', sans-serif;
+              content: 'State 2';
+            }
+
+            > .array-item:nth-child(3)::before {
+              font-family: 'Oswald', sans-serif;
+              content: 'State 3';
+            }
+
+            > .array-item:nth-child(4)::before {
+              font-family: 'Oswald', sans-serif;
+              content: 'State 4';
+            }
+
+            .array-item .col-xs-9 .form-group.field.field-object fieldset .form-group.field.field-array {
+              border: none;
+              margin-bottom: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,649 @@
+.bp3-menu {
+    background: rgb(010, 087, 164);
+    color: white;
+}
+
+.bp3-menu li {
+    padding-bottom: 4px;
+    border: solid 2px rgb(010, 087, 164);
+    border-top: solid 1px rgb(128, 196, 028);
+    border-bottom: solid 1px rgb(128, 196, 028);
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.bp3-menu li:last-child {
+    border-bottom: solid 2px rgb(128, 196, 028);
+}
+
+.bp3-menu li:first-child {
+    border-top: solid 2px rgb(128, 196, 028);
+}
+
+.bp3-menu li:hover {
+    background-color: rgb(0, 0, 0);
+    border-left: solid 2px rgb(128, 196, 028);
+    border-right: solid 2px rgb(128, 196, 028);
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.bp3-menu-item {
+    font-size: 20px;
+}
+
+.bp3-menu-item:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.bp3-popover-target {
+    color: white;
+}
+
+.bp3-menu-item::before, .bp3-menu-item > .bp3-icon {
+    color: white;
+}
+
+.bp3-menu-divider {
+    border-top: solid 2px rgb(128, 196, 028);
+}
+
+.bp3-menu .bp3-menu {
+    background-color: rgb(028, 117, 188);
+    padding: 0px;
+}
+
+.side-nav {
+    overflow-x: visible !important;
+}
+
+.device-config-table, .rjsf {
+    margin-left: 0px !important;
+    width: auto !important;
+}
+
+.config-panel {
+    margin-left: 50px;
+}
+
+.row.array-item-list {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.mks-tabs,
+.mks-main-content {
+    margin-left: 280px;
+}
+
+.rjsf legend {
+    margin: 0px !important;
+}
+
+.rjsf {
+    padding: 15px;
+    box-shadow: 0px 0px 20px #cccccc;
+    border-radius: 0px !important;
+}
+
+.row.array-item-list > .array-item {
+    width: 100% !important;
+    padding-top: 5px;
+}
+
+fieldset#root > legend {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+fieldset#root fieldset > legend {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+fieldset#root fieldset fieldset > legend,
+.form-group.field > label {
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(010, 087, 164);
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0px !important;
+}
+
+.form-group.field.field-boolean > .checkbox {
+    margin-left: 0px;
+}
+
+/*
+.row.array-item-list > .array-item:nth-child(odd) input,
+.row.array-item-list > .array-item:nth-child(odd) select {
+    background-color: #eee;
+}
+*/
+
+.row.array-item-list {
+    /*border-bottom: 1px solid #eee;*/
+    margin-bottom: 20px;
+}
+
+.bp3-large > .bp3-tab {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+#root__description {
+    visibility: visible !important;
+}
+
+input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+.checkbox label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+}
+
+.mks-main-content h1,
+.mks-main-content h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.blue-button {
+    margin: 2em 0em !important;
+}
+
+.span.required-fields {
+    margin-left: 0px;
+}
+
+.mks-shadow-border {
+    padding: 15px;
+    box-shadow: 0px 0px 20px #cccccc;
+    border-radius: 0px !important;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.mks-device-status table {
+    margin: 0px !important;
+    width: 100%;
+}
+
+.mks-device-status th,
+.mks-device-status .col-3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+    width: 50px;
+    color: rgb(010, 087, 164);
+    white-space: nowrap;
+}
+
+/* .mks-device-status td {
+} */
+
+.mks-device-status tr {
+    width: auto;
+}
+
+.mks-device-status .row {
+    margin-bottom: 15px;
+}
+
+input[type="number"] {
+    text-align: right;
+    width: 30%;
+}
+
+input.form-control[type="text"].mks-text-align-right {
+    text-align: right;
+}
+
+button.list-group-item {
+    text-align: left;
+}
+
+.mks-nav-bar .list-group {
+    font-size: 0.9em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.mks-nav-bar .list-group-item,
+.mks-nav-bar .list-group-item-action {
+    background-color: rgb(010, 087, 164);
+    border: none;
+    border-top: solid 2px rgb(128, 196, 028);
+    color: white;
+    font-family: oswald;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.mks-nav-bar .list-group-item.list-group-item-action {
+    border-top: solid 2px rgb(128, 196, 028);
+}
+
+.mks-nav-bar .list-group-item:first-child {
+    border-radius: 0px;
+}
+
+.mks-nav-bar .list-group-item:hover,
+.mks-nav-bar .list-group-item:enabled {
+    background-color: rgb(010, 087, 164);
+    color: white;
+}
+
+.mks-display-inline {
+    display: inline;
+}
+
+.mks-display-inline > button {
+    background-color: transparent;
+    border-color: transparent;
+    padding-left: 5px;
+    margin-left: 0px;
+    font-size: 1.01em;
+    width: 174px;
+    text-align: left;
+}
+
+.mks-display-inline > button:enabled {
+    background-color: transparent;
+}
+
+.dropdown-menu.show {
+    background-color: rgb(010, 087, 164);
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.dropdown-menu.show > a:hover {
+    background-color: rgb(010, 087, 164);
+}
+
+.dropdown-menu.show > a {
+    font-size: 1.2em;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 2px rgb(128, 196, 028);
+}
+
+.nav {
+    margin-left: 50px;
+}
+
+.mks-device-config-tabs .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: transparent;
+    color: rgb(010, 087, 164);
+    border-radius: 0px;
+    border-bottom: 5px solid rgb(010, 087, 164);
+    font-weight: bolder;
+}
+
+.mks-device-config-tabs .nav-link {
+    font-size: 2em;
+    font-family: Oswald;
+}
+
+.mks-font-size-100px {
+    font-size: 100px !important;
+}
+
+.mks-color-dark-blue {
+    color: rgb(10, 87, 164);
+}
+
+.mks-scrollable {
+    height: 280px;
+    overflow-y: scroll;
+}
+
+.mks-margin-top-10px {
+    margin-top: 10px;
+}
+
+.mks-nowrap {
+    white-space: nowrap;
+}
+
+.mks-margin-left-10px {
+    margin-left: 10px;
+}
+
+.mks-margin-left-right-15px {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.mks-margin-left-5px {
+    margin-left: 5px;
+}
+
+.list-group-item.active span {
+    color: white
+}
+
+.mks-upload-files .mks-file {
+    position: relative;
+    bottom: 5px;
+    font-size: 1em;
+    font-family: Oswald;
+}
+
+.mks-transparent-color {
+    color: transparent;
+}
+
+.fa-square-o:before {
+    font-size: 24px;
+}
+
+li.list-group-item {
+    padding: .5rem 1.25rem;
+}
+
+/*
+TIMBERS
+ */
+
+body {
+    counter-reset: bin -1 preset 0
+    entry 0
+    main-controller-power-profile-entry 0
+    state 0
+    edge-ramping-state-counter 0
+    pid-restore-state-counter 0
+    tuning-allowed-counter 0
+    resume-delay-state-counter 0
+    recall-mode-when-tuning-not-allowed-counter 0
+    recall-mode-counter 0
+    control-mode-couter 0
+    convergence-threshold-counter 0
+    convergence-samples-counter 0
+    default-tuners-when-boot-counter 0
+    dft-gains-counter 0
+    DFT-Rotation-Angles-counter 0
+        /* BIN SYNCED READBACKS */
+    Pulse-Edge-Holdoff-counter 0
+    Pulse-Capture-Window-Time-counter 0
+        /* MAIN CONTROLLER CONFIGURATION - CUSTOMER */
+    Gamma-Blanking-Time-counter 0
+        /* PULSING CONFIGURATION - CUSTOMER */
+    Pulse-Edge-Delay-counter 0
+    IMD-Reduction-Active-Perturbation-Frequency 0
+    IMD-Reduction-Active_Perturbation-Amplitude 0
+    IMD-Reduction-Active_Integrator-Gain 0
+    Normal-Operation_Perturbation-Frequency 0
+    Normal-Operation_Perturbation-Amplitude 0
+    Normal-Operation_Integrator-Gain 0
+    Control-Coefficients-counter 0
+    Phase-Control-Coefficients-counter 0
+    Edge-Holdoff-counter 0
+        /* TIMBERS CONFIGURATION - PRODUCT */
+    Tune-Thresholds-counter 0
+
+    Voltage-Setpoints-counter 0
+    Phase-Setpoints-counter 0;
+}
+
+#root_Hopping\ Presets {
+    overflow-x: scroll;
+    padding: 15px;
+    width: 1070px;
+}
+
+#root_Hopping\ Presets .array-item:nth-child(odd) .col-xs-9,
+#root_Hopping\ Presets .array-item:nth-child(even) .col-xs-9 {
+    background-color: inherit;
+}
+
+#root_Hopping\ Presets .row.array-item-list {
+    clear: both;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#root_Hopping\ Presets > .row.array-item-list {
+    width: 2000px;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item {
+    width: 100px !important;
+    float: left !important;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item:nth-child(+1) {
+    width: 160px !important;
+    float: left;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item:nth-child(+1) .control-label {
+    margin-top: 0px !important;
+    white-space: nowrap;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item:nth-child(+1) .form-group.field.field-integer {
+    margin-bottom: 1px !important;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item > .col-xs-9 > .form-group.field.field-array > fieldset > legend {
+    text-align: right;
+    padding-right: 25px;
+    margin-bottom: 0px;
+    white-space: nowrap;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item > .col-xs-9 > .form-group.field.field-array {
+    top: 0px;
+    left: 0px;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item .col-xs-9 {
+    width: 100%;
+    padding: 0px;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item:nth-child(n+2) .col-xs-9 .control-label {
+    display: none;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item:nth-child(n+2) .col-xs-9 .form-control {
+    width: 90%;
+    margin-left: 5px;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item:nth-child(+1) .col-xs-9 .form-control {
+    width: 55%;
+    float: right;
+    margin-right: 10px;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item .col-xs-9 .form-group.field.field-integer {
+    margin-bottom: 7px;
+}
+
+/*
+    Delete button - START
+ */
+#root_Hopping\ Presets > .row.array-item-list > .array-item > .array-item-toolbox {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 7px;
+    top: 0px;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item:hover > .array-item-toolbox {
+    padding-left: 7px;
+    z-index: 1;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item:hover > .array-item-toolbox .btn.btn-danger.array-item-remove {
+    /*visibility: visible !important;*/
+    padding: 0px !important;
+    position: relative;
+    right: 15px;
+    top: 3px;
+    border-radius: 0px;
+    color: red !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item >
+.array-item-toolbox .btn.btn-danger.array-item-remove::after {
+    content: " X";
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item >
+.array-item-toolbox .btn.btn-danger.array-item-remove i.glyphicon {
+    position: relative;
+    top: 9px;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item > .col-xs-9 > .field-array .col-xs-3.array-item-toolbox {
+    display: none;
+}
+
+/*
+    Delete button - END
+ */
+
+/*
+    Add Presets Button - START
+ */
+
+#root_Hopping\ Presets .col-xs-3.col-xs-offset-9.text-right.array-item-add {
+    position: absolute !important;
+    top: 3px !important;
+    left: 180px;
+}
+
+#root_Hopping\ Presets {
+    position: relative;
+}
+
+#root_Hopping\ Presets .btn.btn-info.btn-add.col-xs-12 {
+    visibility: visible;
+    padding: 5px;
+    background-color: rgb(010, 087, 164);
+}
+
+.glyphicon.glyphicon-plus::after {
+    content: " Add Preset";
+    font-style: normal;
+}
+
+/*
+    - END
+ */
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item {
+    position: relative;
+    /*padding-left: 5px;*/
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item .col-xs-9 .form-group.field.field-integer > .control-label::after {
+    counter-increment: bin;
+    content: "Bin " counter(bin);
+    position: relative;
+    top: 2px;
+    float: right;
+}
+
+#root_Hopping\ Presets .required {
+    display: none;
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item > .col-xs-9 > .form-group.field.field-array > fieldset > legend::after {
+    counter-increment: preset;
+    content: counter(preset);
+}
+
+#root_Hopping\ Presets > .row.array-item-list > .array-item .field-array-of-integer .array-item-add {
+    display: none;
+}
+
+[id='root_Hopping Presets__title'],
+[id='root_Hopping Presets'] .array-item .array-item label,
+.rjsf #root > .form-group.field.field-array .row.array-item-list > .array-item legend {
+    cursor: pointer;
+}
+
+[id='root_Hopping Presets_0'] > .row.array-item-list > .array-item {
+    padding-left: 5px;
+}
+
+#mks-timbers-control {
+    position: fixed;
+    top: 64px;
+    right: 50px;
+}
+
+.mks-font-family-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+form.rjsf {
+    padding-bottom: 50px;
+}
+
+form.rjsf > .required-fields {
+    position: fixed;
+    right: 390px;
+    bottom: 55px;
+}
+
+form.rjsf > #apply-changes {
+    position: fixed;
+    right: 215px;
+    bottom: 15px;
+}
+
+form.rjsf > #save-defaults {
+    position: fixed;
+    right: 45px;
+    bottom: 15px;
+}
+
+/* sticky error list */
+#mks-error-list {
+    position: fixed;
+    right: 45px;
+    bottom: 100px;
+}
+
+/* hide errors under fields */
+.list-group-item.text-danger,
+.error-detail.bs-callout.bs-callout-info,
+.panel.panel-danger.errors {
+    display: none;
+}
+
+/* sticky buttons under form */
+.mks-scrollable-wrapper {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.mks-display-none {
+    display: none;
+}
+
+.notification-container {
+    width: 400px;
+}
+
+div.col-xs-3.array-item-toolbox {
+    display: none;
+}
+
+

@@ -1,0 +1,51 @@
+.form-group.field {
+  margin-bottom: 0px;
+}
+
+/* BACK PORCH PORT EXPANDER CONFIGURATION - SELECT */
+select#root_0_Defined\ Name\ Input,
+select#root_0_Defined\ Name\ Output,
+select#root_0_Output\ Initial\ Level,
+select#root_1_Defined\ Name\ Input,
+select#root_1_Defined\ Name\ Output,
+select#root_1_Output\ Initial\ Level,
+select#root_2_Defined\ Name\ Input,
+select#root_2_Defined\ Name\ Output,
+select#root_2_Output\ Initial\ Level,
+select#root_3_Defined\ Name\ Input,
+select#root_3_Defined\ Name\ Output,
+select#root_3_Output\ Initial\ Level,
+select#root_4_Defined\ Name\ Input,
+select#root_4_Defined\ Name\ Output,
+select#root_4_Output\ Initial\ Level,
+select#root_5_Defined\ Name\ Input,
+select#root_5_Defined\ Name\ Output,
+select#root_5_Output\ Initial\ Level {
+  width: 57%;
+  float: right;
+  position: relative;
+  bottom: 75px;
+}
+
+/* BACK PORCH PORT EXPANDER CONFIGURATION - DESCRIPTIONS */
+p#root_0_Defined\ Name\ Input__description,
+p#root_0_Defined\ Name\ Output__description,
+p#root_0_Output\ Initial\ Level__description,
+p#root_1_Defined\ Name\ Input__description,
+p#root_1_Defined\ Name\ Output__description,
+p#root_1_Output\ Initial\ Level__description,
+p#root_2_Defined\ Name\ Input__description,
+p#root_2_Defined\ Name\ Output__description,
+p#root_2_Output\ Initial\ Level__description,
+p#root_3_Defined\ Name\ Input__description,
+p#root_3_Defined\ Name\ Output__description,
+p#root_3_Output\ Initial\ Level__description,
+p#root_4_Defined\ Name\ Input__description,
+p#root_4_Defined\ Name\ Output__description,
+p#root_4_Output\ Initial\ Level__description,
+p#root_5_Defined\ Name\ Input__description,
+p#root_5_Defined\ Name\ Output__description,
+p#root_5_Output\ Initial\ Level__description {
+  width: 40%;
+  margin-bottom: 0px;
+}
