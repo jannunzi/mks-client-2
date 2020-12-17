@@ -8,6 +8,7 @@ import firmwareDownloadReducer from './reducers/firmware-download';
 import uploadFileReducer from './reducers/upload-files';
 import userReducer from "./reducers/user-reducer";
 import scopePresetsReducer from "./reducers/scope-presets-reducer";
+import scopeReducer from "./reducers/scope-reducer";
 
 //import {reducer as formReducer} from 'redux-form';
 //import {loadAuthToken} from './local-storage';
@@ -24,6 +25,7 @@ const store = createStore(
             user: userReducer,
             presets: scopePresetsReducer,
             uploadFiles: uploadFileReducer,
+            scopeReducer
     }),
     composeEnhancer(applyMiddleware(thunk))
 );

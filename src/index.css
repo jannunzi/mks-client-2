@@ -1,26 +1,29 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* bakground-color: light-blue; */
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* bakground-color: light-blue; */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .mks-4x {
-  font-size: 4em !important;
+    font-size: 4em !important;
 }
 
 .mks-padding-right-20px {
-  padding-right: 20px;
+    padding-right: 20px;
 }
 
 ._loading_overlay_wrapper, #root, body, html {
     height: 100%;
 }
 
+.mks-background-color-white {
+    background-color: white;
+}

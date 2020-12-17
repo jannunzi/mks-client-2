@@ -25,6 +25,11 @@ import {currentRole} from "../actions/user-action";
 //used for spinner when waiting for server to load
 import LoadingOverlay from 'react-loading-overlay';
 
+import ScopeCapturesExpandable from "./scope-capture/scope-captures-expandable";
+import ScopePresets from "./scope-presets/scope-presets"
+import ScopeFaults from "./scope-faults/scope-faults"
+import Captures from "./scope-capture/captures"
+
 
 class App extends React.Component {
    
@@ -81,6 +86,10 @@ class App extends React.Component {
                     <Route exact path="/device-config/:config" component={ConfigurationTabs} />
                     <Route exact path="/firmware-download" component={FirmwareDownload} />
                     <Route exact path="/downloads" component={Downloads} />
+                    <Route exact path="/scope-capture" component={ScopeCapturesExpandable} />
+                    <Route exact path="/scope-renders" component={Captures} />
+                    <Route exact path="/scope-presets" component={ScopePresets} />
+                    <Route exact path="/scope-faults" component={ScopeFaults} />
                     {/* <Route exact path="/scope-control" component={ScopeControl} /> */}
                     {/* <Route exact path="/scope-stream" component={ScopeStream} /> */}
                     <Route exact path="/user-management" component={UserManagement} />

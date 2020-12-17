@@ -5,3 +5,5 @@
 
 //use for production
 export const API_BASE_URL = `http://${window.location.href.split('/')[2].split(':')[0]}:8081` || 'http://127.0.0.1:8081';
+export const SCOPE_API_BASE_URL = `http://${window.location.href.split('/')[2].split(':')[0]}:8081` || 'http://127.0.0.1:8081';
+// export const SCOPE_API_BASE_URL = `http://${window.location.href.split('/')[2].split(':')[0]}` || 'http://127.0.0.1:8081';

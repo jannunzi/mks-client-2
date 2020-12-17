@@ -11,6 +11,7 @@ import './styles/timbersController.scss'
 import './styles/stateCounter.scss'
 
 import './vendors/bootstrap/dist/css/bootstrap.min.css'
+import './vendors/fontawesome/css/font-awesome.min.css'
 import './jga.css'
 
 import './styles/compact-single-dropdown.css'

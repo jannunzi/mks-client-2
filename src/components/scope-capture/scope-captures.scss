@@ -1,0 +1,54 @@
+.mks-scope-capture {
+    padding-top: 10px;
+    .form-inline {
+        margin: 0px;
+    }
+}
+
+.mks-scope-presets {
+    label {
+        padding: 0px;
+        margin: 0px;
+    }
+    .list-group-item {
+        padding-left: 10px;
+    }
+    .row {
+        margin-bottom: 10px;
+    }
+    .col-6, .col-3, select {
+        margin-bottom: 5px;
+    }
+    .mks-border-1px-solid-lightgray {
+    }
+    .mks-channel {
+        border: 1px solid lightgray;
+        //padding-right: 5px;
+    }
+}
+
+.mks-scope-presets-expanded {
+    position: fixed;
+    padding-top: 30px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    top: 0px;
+    bottom: 0px;
+    background-color: white;
+    overflow-y: auto;
+}
+
+.mks-scope-presets-expand-controls {
+    z-index: 2;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.mks-trigger-parameters {
+    .row, .col-3, .col-2 {
+        margin-bottom: 0px;
+        padding-right: 0px;
+    }
+}

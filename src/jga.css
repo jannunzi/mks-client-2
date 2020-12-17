@@ -137,7 +137,7 @@ fieldset#root fieldset fieldset > legend,
     visibility: visible !important;
 }
 
-input[type="checkbox"] {
+input[type="checkbox"], input[type="radio"] {
     margin-right: 15px;
 }
 
@@ -149,7 +149,11 @@ input[type="checkbox"] {
 }
 
 .mks-main-content h1,
-.mks-main-content h2 {
+.mks-main-content h2,
+.mks-main-content h3,
+.mks-main-content h4,
+.mks-main-content h5,
+.mks-main-content h6 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
@@ -646,4 +650,10 @@ div.col-xs-3.array-item-toolbox {
     display: none;
 }
 
+.mks-margin-right-30px {
+    margin-right: 30px;
+}
 
+.mks-margin-right-60px {
+    margin-right: 60px;
+}

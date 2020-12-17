@@ -117,19 +117,27 @@ export class NavBar extends React.Component {
                         onClick={(e) => this.navigateTo("/user-management")}>
                         <i className="fa fa-home"/> User Management
                     </ListGroup.Item>
-                    {/*<ListGroup.Item>*/}
-                    {/*    <i className="fa fa-cog"/>*/}
-                    {/*    <DropdownButton*/}
-                    {/*        className="mks-display-inline"*/}
-                    {/*        drop='right'*/}
-                    {/*        title="Power Station"*/}
-                    {/*        id="dropdown-menu-align-right">*/}
-                    {/*        <Dropdown.Item*/}
-                    {/*            onClick={(e) => this.navigateTo("smith")}>*/}
-                    {/*            Smith Chart*/}
-                    {/*        </Dropdown.Item>*/}
-                    {/*    </DropdownButton>*/}
-                    {/*</ListGroup.Item>*/}
+                    <ListGroup.Item>
+                      <i className="fa fa-home"/>
+                      <DropdownButton
+                        className="mks-display-inline"
+                        drop='right'
+                        title="Scope"
+                        id="dropdown-menu-align-right">
+                        <Dropdown.Item
+                          onClick={(e) => this.navigateTo("/scope-capture")}>
+                          Scope Capture
+                        </Dropdown.Item>
+                        <Dropdown.Item
+                          onClick={(e) => this.navigateTo("/scope-presets")}>
+                          Scope Presets
+                        </Dropdown.Item>
+                        <Dropdown.Item
+                          onClick={(e) => this.navigateTo("/scope-faults")}>
+                          Scope Faults
+                        </Dropdown.Item>
+                      </DropdownButton>
+                    </ListGroup.Item>
                 </ListGroup>
             </div>
         )
